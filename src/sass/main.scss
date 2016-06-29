@@ -25,22 +25,26 @@ font-size: 40px;
         font-size: 25px;
         border-bottom: 2px solid rgb(103,186,138);
         display: inline-block;
+        text-transform: uppercase;
       }
       .email{
         font-size: 17px;
         color: rgb(204,204,204);
         font-weight: lighter;
         margin: 15px 0px 15px 0px;
+        text-transform: uppercase;
       }
       .street{
         font-size: 14px;
         color: rgb(153,153,153);
         margin: 5px 0px 5px 0px;
+        text-transform: capitalize;
       }
       .location{
         font-size: 14px;
         color: rgb(153,153,153);
         margin: 5px 0px 5px 0px;
+        text-transform: capitalize;
       }
       .phone{
         font-size: 14px;

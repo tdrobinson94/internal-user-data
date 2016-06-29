@@ -1,8 +1,12 @@
 import $ from 'jquery';
 
 $.ajax({
-  url: 'http://api.randomuser.me/?results=12',
+  url: 'http://api.randomuser.me/',
   dataType: 'json',
+  data:{
+    results: 12,
+    nat: "US"
+  },
   success: function(data){
   data.results.map(createUser);
   console.log(data);
